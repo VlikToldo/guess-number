@@ -7,23 +7,25 @@
 
 ## Налаштування та запуск
 
-### 1. Клонуйте репозиторій
-
-Спочатку клонувати репозиторій на ваш локальний комп'ютер:
+### 1. Клонування
 
 ```bash
 git clone https://github.com/VlikToldo/guess-number.git
 cd guess-number
+```
 
+### 2. Запуск front
 
-### 1. Запуск 
-
-У папці guess-number-front 
-
-npm i 
+```bash
+cd guess-number-front
+npm i
 npm run dev
+```
 
-У папці guess-number-back
+### 2. Запуск back
+
+```bash
+cd guess-number-back
 npm i
 node server
-
+```
